@@ -1,0 +1,46 @@
+'Neos.TestSite:Content.Headline':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Headline'
+  properties:
+    headline:
+      type: string
+      defaultValue: '<h1></h1>'
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: i18n
+            autoparagraph: false
+            linking:
+              anchor: true
+              title: true
+              relNofollow: true
+              targetBlank: true
+            formatting:
+              strong: false
+              em: false
+              u: false
+              sub: false
+              sup: false
+              del: false
+              p: false
+              h1: true
+              h2: true
+              h3: true
+              h4: true
+              h5: true
+              h6: true
+              pre: false
+              underline: false
+              strikethrough: false
+              removeFormat: false
+              left: false
+              right: false
+              center: false
+              justify: false
+              table: false
+              ol: false
+              ul: false
+              a: true

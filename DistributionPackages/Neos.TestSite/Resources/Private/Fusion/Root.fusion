@@ -1,0 +1,23 @@
+/**
+ * Root Fusion for the test-site site
+ */
+
+prototype(Neos.TestSite:DefaultPage) < prototype(Neos.Neos:Page) {
+    head {
+        stylesheets.site = Neos.Fusion:Template {
+            templatePath = 'resource://Neos.TestSite/Private/Templates/Page/Default.html'
+            sectionName = 'stylesheets'
+        }
+
+        javascripts.site = Neos.Fusion:Template {
+            templatePath = 'resource://Neos.TestSite/Private/Templates/Page/Default.html'
+            sectionName = 'headScripts'
+        }
+    }
+
+    body >
+    body = ${I18n.translate('demo', 'ABC', {'0': "TEST"}, 'Main')}
+
+}
+
+include: NodeTypes/**/*

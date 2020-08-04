@@ -1,0 +1,12 @@
+prototype(Neos.TestSite:Content.Headline) < prototype(Neos.Neos:ContentComponent) {
+    headline = Neos.Neos:Editable {
+        property = 'headline'
+        block = false
+    }
+
+    renderer = afx`
+        <div class="headline">
+            {props.headline}
+        </div>
+    `
+}

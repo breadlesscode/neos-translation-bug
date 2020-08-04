@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file original="" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="demo">
+                <source>pre demo {0} post demo</source>
+                <target>vor demo {0} nach demo</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
